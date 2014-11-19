@@ -11,19 +11,15 @@ numero2 = sc.nextInt();
 }
 
 
-public static int suma(int a, int b) {
-		int c;
-		c = a + b;
-		return c;
-		}
-		//y agregamos a la clase ,
-		//resultado = suma(numero1, numero2);
-		//System.out.println("Suma: " + resultado);
-
-public static int resta(int a, int b) {
+public static int producto(int a, int b) {
 int c;
-c = a - b;
+c = a * b;
 return c;
 }
-//Creamos un Branch2 para tener
+
+public static int dividir(int a, int b) {
+int c;
+c = a / b;
+return c;
+}
 }
